@@ -44,17 +44,17 @@
 
 1. Создать и применить миграции
 
-   `docker-compose exec web python manage.py makemigration --noinput`
+   `sudo docker-compose exec web python manage.py makemigrations --noinput`
 
-   `docker-compose exec web python manage.py migrate --noinput`
+   `sudo docker-compose exec web python manage.py migrate --noinput`
 
 2. Создать супер пользователя
 
-    `docker-compose exec web python manage.py createsuperuser`
+    `sudo docker-compose exec web python manage.py createsuperuser`
 
 3. Собрать статику
 
-    `docker-compose exec web python manage.py collectstatic --no-input`
+    `sudo docker-compose exec web python manage.py collectstatic --no-input`
+4. Наполнить 
 
-> Готово, можно перейти по http://84.201.154.175/admin
-
+> Готово, можно перейти по http://84.201.154.175/admin/
