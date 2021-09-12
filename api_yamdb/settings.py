@@ -8,7 +8,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", "hide_key_here_add_it_to_env_file")
 
 DEBUG = False
 
-ALLOWED_HOSTS = list(os.getenv("ALLOWED_HOST"))
+ALLOWED_HOSTS = [os.getenv("ALLOWED_HOST")]
 
 
 INSTALLED_APPS = [
