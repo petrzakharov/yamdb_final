@@ -55,6 +55,5 @@
 3. Собрать статику
 
     `sudo docker-compose exec web python manage.py collectstatic --no-input`
-4. Наполнить 
 
-> Готово, можно перейти по http://84.201.154.175/admin/
+> Готово, можно перейти по <http://84.201.154.175/admin/>
